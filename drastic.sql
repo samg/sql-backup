@@ -154,10 +154,10 @@ INSERT INTO `cached_pages` VALUES (17,'/feed/atom.xml','[1:Section][9:Article][8
 INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:Article][2:Article][1:Section][9:Article][8:Article][6:Article][5:Article]','2009-07-10 03:35:15',1,NULL);
 INSERT INTO `cached_pages` VALUES (19,'/stylesheets/ie.css','','2009-07-10 15:51:52',1,NULL);
 INSERT INTO `cached_pages` VALUES (20,'/2009/5/26/resizing-textareas-as-you-type-with-jquery','[4:Article][1:Site][1:User][9:Article][5:Article][6:Article][3:Article][2:Article][8:Article]','2009-07-10 02:16:11',1,NULL);
-INSERT INTO `cached_pages` VALUES (21,'/tags/user%20experience','[1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-09 02:16:13',1,'2009-07-10 00:39:38');
+INSERT INTO `cached_pages` VALUES (21,'/tags/user%20experience','[1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-13 03:02:34',1,NULL);
 INSERT INTO `cached_pages` VALUES (22,'/tags/jquery','[6:Article][1:Site][4:Article][9:Article][5:Article][3:Article][2:Article][8:Article]','2009-07-10 04:29:57',1,NULL);
 INSERT INTO `cached_pages` VALUES (23,'/2009/5/19/a-smart-pluralizing-helper-for-rails','[2:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][3:Article][8:Article]','2009-07-10 03:59:01',1,NULL);
-INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][5:Article][2:Article]','2009-07-08 08:20:28',1,'2009-07-10 00:39:38');
+INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][5:Article][2:Article]','2009-07-12 16:14:02',1,NULL);
 INSERT INTO `cached_pages` VALUES (25,'/2009/5/27/resizing-textareas-as-you-type-with-prototype','[3:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-10 01:15:45',1,NULL);
 INSERT INTO `cached_pages` VALUES (26,'/tags/prototype','[3:Article][1:Site][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-10 03:29:54',1,NULL);
 INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][5:Article][2:Article][8:Article]','2009-07-10 15:48:55',1,NULL);
@@ -820,4 +820,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-12 11:12:28
+-- Dump completed on 2009-07-13 11:13:00
