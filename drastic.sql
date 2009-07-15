@@ -174,7 +174,7 @@ INSERT INTO `cached_pages` VALUES (36,'/javascripts/bash.js','','2009-07-10 00:4
 INSERT INTO `cached_pages` VALUES (37,'/2009/6/26/setting-up-an-interactive-javascript-console','[8:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article]','2009-07-10 01:55:16',1,NULL);
 INSERT INTO `cached_pages` VALUES (38,'/tags/shell','[8:Article][1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article]','2009-07-10 03:29:49',1,NULL);
 INSERT INTO `cached_pages` VALUES (39,'/tags/rhino','[8:Article][1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article]','2009-07-10 01:45:35',1,NULL);
-INSERT INTO `cached_pages` VALUES (40,'/archives/2009/7','[9:Article][1:Site][1:Section][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-10 19:05:22',1,'2009-07-13 21:16:02');
+INSERT INTO `cached_pages` VALUES (40,'/archives/2009/7','[9:Article][1:Site][1:Section][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-14 19:16:12',1,NULL);
 INSERT INTO `cached_pages` VALUES (41,'/2009/7/10/make-it-so-activerecord-attributes-which-conflict-with-object-private-methods-don-t-randomly-cause-nomethoderrors','[9:Article][1:Site][1:User][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 00:39:59',1,NULL);
 INSERT INTO `cached_pages` VALUES (42,'/tags/private','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:45:33',1,NULL);
 INSERT INTO `cached_pages` VALUES (43,'/tags/fix','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:45:34',1,NULL);
@@ -824,4 +824,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14 11:08:52
+-- Dump completed on 2009-07-15 11:13:09
