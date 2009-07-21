@@ -149,7 +149,7 @@ INSERT INTO `cached_pages` VALUES (11,'/javascripts/jquery.js','','2009-07-19 05
 INSERT INTO `cached_pages` VALUES (12,'/javascripts/application.js','','2009-07-19 05:47:03',1,NULL);
 INSERT INTO `cached_pages` VALUES (13,'/2009/5/20/a-smart-pluralizing-helper-for-rails','[2:Article][1:Site][1:User]','2009-05-20 08:20:00',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (14,'/tags/gist','[3:Article][1:Site][4:Article][2:Article][9:Article][5:Article][6:Article][8:Article]','2009-07-10 02:32:34',1,'2009-07-19 05:46:53');
-INSERT INTO `cached_pages` VALUES (15,'/tags/rails','[9:Article][1:Site][5:Article][3:Article][2:Article][6:Article][4:Article][8:Article]','2009-07-19 01:55:26',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (15,'/tags/rails','[9:Article][1:Site][5:Article][3:Article][2:Article][6:Article][4:Article][8:Article]','2009-07-21 03:35:45',1,NULL);
 INSERT INTO `cached_pages` VALUES (16,'/tags/ruby','[9:Article][1:Site][5:Article][2:Article][6:Article][4:Article][3:Article][8:Article]','2009-07-10 04:43:22',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (17,'/feed/atom.xml','[1:Section][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-19 06:17:18',1,NULL);
 INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:Article][2:Article][1:Section][10:Article][9:Article][8:Article][6:Article][5:Article]','2009-07-19 08:02:31',1,NULL);
@@ -161,7 +161,7 @@ INSERT INTO `cached_pages` VALUES (23,'/2009/5/19/a-smart-pluralizing-helper-for
 INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][5:Article][2:Article]','2009-07-12 16:14:02',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (25,'/2009/5/27/resizing-textareas-as-you-type-with-prototype','[3:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-19 17:49:58',1,NULL);
 INSERT INTO `cached_pages` VALUES (26,'/tags/prototype','[3:Article][1:Site][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-10 03:29:54',1,'2009-07-19 05:46:53');
-INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][5:Article][2:Article][8:Article]','2009-07-10 15:48:55',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][5:Article][2:Article][8:Article]','2009-07-21 06:55:57',1,NULL);
 INSERT INTO `cached_pages` VALUES (28,'/archives/2009/6','[8:Article][1:Site][6:Article][5:Article][1:Section][10:Article][9:Article][3:Article][4:Article][2:Article]','2009-07-19 08:02:25',1,NULL);
 INSERT INTO `cached_pages` VALUES (29,'/2009/6/10/how-to-load-a-yaml-config-object','[5:Article][1:Site][1:User][9:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-19 17:50:04',1,NULL);
 INSERT INTO `cached_pages` VALUES (30,'/tags/filter','[6:Article][1:Site][9:Article][5:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-11 09:30:24',1,'2009-07-19 05:46:53');
@@ -845,4 +845,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-20 10:49:06
+-- Dump completed on 2009-07-21 11:10:48
