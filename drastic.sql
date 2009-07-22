@@ -156,9 +156,9 @@ INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:
 INSERT INTO `cached_pages` VALUES (19,'/stylesheets/ie.css','','2009-07-10 15:51:52',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (20,'/2009/5/26/resizing-textareas-as-you-type-with-jquery','[4:Article][1:Site][1:User][9:Article][5:Article][6:Article][3:Article][2:Article][8:Article]','2009-07-19 17:49:54',1,NULL);
 INSERT INTO `cached_pages` VALUES (21,'/tags/user%20experience','[1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-13 03:02:34',1,'2009-07-19 05:46:53');
-INSERT INTO `cached_pages` VALUES (22,'/tags/jquery','[6:Article][1:Site][4:Article][9:Article][5:Article][3:Article][2:Article][8:Article]','2009-07-10 04:29:57',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (22,'/tags/jquery','[6:Article][1:Site][4:Article][9:Article][5:Article][3:Article][2:Article][8:Article]','2009-07-21 16:25:57',1,NULL);
 INSERT INTO `cached_pages` VALUES (23,'/2009/5/19/a-smart-pluralizing-helper-for-rails','[2:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][3:Article][8:Article]','2009-07-19 07:37:14',1,NULL);
-INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][5:Article][2:Article]','2009-07-12 16:14:02',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][5:Article][2:Article]','2009-07-22 09:45:22',1,NULL);
 INSERT INTO `cached_pages` VALUES (25,'/2009/5/27/resizing-textareas-as-you-type-with-prototype','[3:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-19 17:49:58',1,NULL);
 INSERT INTO `cached_pages` VALUES (26,'/tags/prototype','[3:Article][1:Site][9:Article][5:Article][6:Article][4:Article][2:Article][8:Article]','2009-07-10 03:29:54',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][5:Article][2:Article][8:Article]','2009-07-21 06:55:57',1,NULL);
@@ -176,11 +176,11 @@ INSERT INTO `cached_pages` VALUES (38,'/tags/shell','[8:Article][1:Site][9:Artic
 INSERT INTO `cached_pages` VALUES (39,'/tags/rhino','[8:Article][1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article]','2009-07-19 07:32:10',1,NULL);
 INSERT INTO `cached_pages` VALUES (40,'/archives/2009/7','[10:Article][1:Site][9:Article][1:Section][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-19 08:02:17',1,NULL);
 INSERT INTO `cached_pages` VALUES (41,'/2009/7/10/make-it-so-activerecord-attributes-which-conflict-with-object-private-methods-don-t-randomly-cause-nomethoderrors','[9:Article][1:Site][1:User][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-19 08:20:33',1,NULL);
-INSERT INTO `cached_pages` VALUES (42,'/tags/private','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:45:33',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (42,'/tags/private','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-22 09:04:19',1,NULL);
 INSERT INTO `cached_pages` VALUES (43,'/tags/fix','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:45:34',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (44,'/tags/bug','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-19 22:20:16',1,NULL);
 INSERT INTO `cached_pages` VALUES (45,'/tags/patch','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:45:47',1,'2009-07-19 05:46:53');
-INSERT INTO `cached_pages` VALUES (46,'/tags/collision','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:46:02',1,'2009-07-19 05:46:53');
+INSERT INTO `cached_pages` VALUES (46,'/tags/collision','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-21 13:24:01',1,NULL);
 INSERT INTO `cached_pages` VALUES (47,'/tags/activerecord','[9:Article][1:Site][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-10 01:46:17',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (48,'/2009/7/19/timetrap-simple-command-line-time-tracking-with-ruby','[10:Article][1:Site][1:User][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-19 06:25:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (49,'/feed','[1:Section][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-19 06:33:41',1,NULL);
@@ -845,4 +845,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-21 11:10:48
+-- Dump completed on 2009-07-22 10:54:42
