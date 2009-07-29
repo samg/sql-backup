@@ -483,7 +483,7 @@ CREATE TABLE `memberships` (
   `created_at` datetime default NULL,
   `admin` tinyint(1) default '0',
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -492,6 +492,7 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `memberships` WRITE;
 /*!40000 ALTER TABLE `memberships` DISABLE KEYS */;
+INSERT INTO `memberships` VALUES (1,1,2,'2009-07-28 17:46:23',0);
 /*!40000 ALTER TABLE `memberships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -825,7 +826,7 @@ CREATE TABLE `users` (
   `filter` varchar(255) default 'textile_filter',
   `admin` tinyint(1) default '0',
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -834,7 +835,8 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Sam Goldstein','sgrock@gmail.com','6cb884089938772d892cb0ca45545a0866fec409','7e3041ebc2fc05a40c60028e2c4901a81035d3cd',NULL,'2009-05-20 05:06:17','2009-05-20 05:06:17','2009-07-23 03:25:15',NULL,'3a5ff56fda913646bc849b5cfdf6724326af4e51','2009-08-06 03:25:15','textile_filter',1);
+INSERT INTO `users` VALUES (1,'Sam Goldstein','sgrock@gmail.com','6cb884089938772d892cb0ca45545a0866fec409','7e3041ebc2fc05a40c60028e2c4901a81035d3cd',NULL,'2009-05-20 05:06:17','2009-05-20 05:06:17','2009-07-28 17:44:32',NULL,'e1986ed3f8c56e6fb5a87408ca0d62632850b48e','2009-08-11 17:44:32','textile_filter',1);
+INSERT INTO `users` VALUES (2,'peter','sam_g@beezwax.net','d4164b65acecbb73a8b698d836ceb27fe0646b15','09852d897746539017053233d7aa12319dc540e7',NULL,NULL,'2009-07-28 17:46:23','2009-07-28 18:22:21','2009-07-28 18:22:21',NULL,NULL,'textile_filter',0);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -847,4 +849,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-28 11:03:13
+-- Dump completed on 2009-07-29 11:11:25
