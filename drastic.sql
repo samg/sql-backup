@@ -152,7 +152,7 @@ INSERT INTO `cached_pages` VALUES (12,'/javascripts/application.js','','2009-08-
 INSERT INTO `cached_pages` VALUES (13,'/2009/5/20/a-smart-pluralizing-helper-for-rails','[2:Article][1:Site][1:User]','2009-05-20 08:20:00',1,'2009-07-19 05:46:53');
 INSERT INTO `cached_pages` VALUES (14,'/tags/gist','[3:Article][1:Site][4:Article][2:Article][9:Article][11:Article][5:Article][13:Article][6:Article][8:Article][10:Article]','2009-08-06 04:44:14',1,NULL);
 INSERT INTO `cached_pages` VALUES (15,'/tags/rails','[13:Article][1:Site][9:Article][5:Article][3:Article][2:Article][11:Article][6:Article][4:Article][8:Article][10:Article]','2009-08-06 01:43:45',1,NULL);
-INSERT INTO `cached_pages` VALUES (16,'/tags/ruby','[9:Article][1:Site][5:Article][2:Article][11:Article][6:Article][4:Article][3:Article][8:Article][10:Article]','2009-08-01 23:58:59',1,'2009-08-02 18:20:54');
+INSERT INTO `cached_pages` VALUES (16,'/tags/ruby','[13:Article][1:Site][9:Article][5:Article][2:Article][11:Article][6:Article][4:Article][3:Article][8:Article][10:Article]','2009-08-06 19:18:38',1,NULL);
 INSERT INTO `cached_pages` VALUES (17,'/feed/atom.xml','[1:Section][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-08-06 01:17:46',1,NULL);
 INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:Article][2:Article][1:Section][10:Article][9:Article][8:Article][6:Article][5:Article]','2009-07-19 08:02:31',1,'2009-08-01 18:10:34');
 INSERT INTO `cached_pages` VALUES (19,'/stylesheets/ie.css','','2009-08-05 17:09:51',1,NULL);
@@ -160,25 +160,25 @@ INSERT INTO `cached_pages` VALUES (20,'/2009/5/26/resizing-textareas-as-you-type
 INSERT INTO `cached_pages` VALUES (21,'/tags/user%20experience','[1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article]','2009-07-22 21:12:12',1,'2009-08-01 18:18:57');
 INSERT INTO `cached_pages` VALUES (22,'/tags/jquery','[6:Article][1:Site][4:Article][9:Article][11:Article][5:Article][13:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 03:44:06',1,NULL);
 INSERT INTO `cached_pages` VALUES (23,'/2009/5/19/a-smart-pluralizing-helper-for-rails','[2:Article][1:Site][1:User][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][8:Article][10:Article]','2009-08-06 03:31:33',1,NULL);
-INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][11:Article][5:Article][2:Article][10:Article]','2009-08-03 17:07:22',1,'2009-08-04 00:15:50');
+INSERT INTO `cached_pages` VALUES (24,'/tags/javascript','[8:Article][1:Site][6:Article][3:Article][4:Article][9:Article][11:Article][5:Article][13:Article][2:Article][10:Article]','2009-08-06 23:19:34',1,NULL);
 INSERT INTO `cached_pages` VALUES (25,'/2009/5/27/resizing-textareas-as-you-type-with-prototype','[3:Article][1:Site][1:User][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][2:Article][8:Article][10:Article]','2009-08-06 04:09:42',1,NULL);
-INSERT INTO `cached_pages` VALUES (26,'/tags/prototype','[3:Article][1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][2:Article][8:Article][10:Article]','2009-08-05 12:44:16',1,'2009-08-05 16:37:04');
-INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][11:Article][5:Article][13:Article][2:Article][8:Article][10:Article]','2009-08-04 21:09:06',1,'2009-08-05 16:37:04');
+INSERT INTO `cached_pages` VALUES (26,'/tags/prototype','[3:Article][1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][2:Article][8:Article][10:Article]','2009-08-06 21:19:08',1,NULL);
+INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article][4:Article][9:Article][11:Article][5:Article][13:Article][2:Article][8:Article][10:Article]','2009-08-06 16:18:03',1,NULL);
 INSERT INTO `cached_pages` VALUES (28,'/archives/2009/6','[8:Article][1:Site][6:Article][5:Article][1:Section][10:Article][9:Article][3:Article][4:Article][2:Article]','2009-07-19 08:02:25',1,'2009-08-01 18:10:34');
 INSERT INTO `cached_pages` VALUES (29,'/2009/6/10/how-to-load-a-yaml-config-object','[5:Article][1:Site][1:User][9:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-07-26 15:36:03',1,'2009-08-01 18:18:57');
-INSERT INTO `cached_pages` VALUES (30,'/tags/filter','[6:Article][1:Site][9:Article][11:Article][5:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-01 22:29:30',1,'2009-08-02 18:20:54');
-INSERT INTO `cached_pages` VALUES (31,'/tags/search','[6:Article][1:Site][9:Article][11:Article][5:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-02 03:11:26',1,'2009-08-02 18:20:54');
+INSERT INTO `cached_pages` VALUES (30,'/tags/filter','[6:Article][1:Site][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-07 01:20:03',1,NULL);
+INSERT INTO `cached_pages` VALUES (31,'/tags/search','[6:Article][1:Site][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 18:18:26',1,NULL);
 INSERT INTO `cached_pages` VALUES (32,'/2009/6/17/instant-search-in-pure-javascript-almost-instantly','[6:Article][1:Site][1:User][7:Comment][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 04:50:56',1,NULL);
 INSERT INTO `cached_pages` VALUES (33,'/tags/convention','[5:Article][1:Site][9:Article][11:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 06:44:35',1,NULL);
 INSERT INTO `cached_pages` VALUES (34,'/tags/configuration','[5:Article][1:Site][9:Article][11:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 07:44:46',1,NULL);
-INSERT INTO `cached_pages` VALUES (35,'/tags/yaml','[5:Article][1:Site][9:Article][11:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-05 23:43:30',1,'2009-08-06 00:59:56');
+INSERT INTO `cached_pages` VALUES (35,'/tags/yaml','[5:Article][1:Site][9:Article][11:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-07 09:27:12',1,NULL);
 INSERT INTO `cached_pages` VALUES (36,'/javascripts/bash.js','','2009-08-04 07:47:04',1,NULL);
 INSERT INTO `cached_pages` VALUES (37,'/2009/6/26/setting-up-an-interactive-javascript-console','[8:Article][1:Site][1:User][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][10:Article]','2009-08-06 04:51:15',1,NULL);
 INSERT INTO `cached_pages` VALUES (38,'/tags/shell','[8:Article][1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][10:Article]','2009-08-06 00:43:38',1,'2009-08-06 00:59:56');
-INSERT INTO `cached_pages` VALUES (39,'/tags/rhino','[8:Article][1:Site][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][10:Article]','2009-08-02 07:33:20',1,'2009-08-02 18:20:54');
-INSERT INTO `cached_pages` VALUES (40,'/archives/2009/7','[10:Article][1:Site][9:Article][1:Section][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-07-19 08:02:17',1,'2009-08-01 18:10:34');
+INSERT INTO `cached_pages` VALUES (39,'/tags/rhino','[8:Article][1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][10:Article]','2009-08-06 20:18:53',1,NULL);
+INSERT INTO `cached_pages` VALUES (40,'/archives/2009/7','[10:Article][1:Site][9:Article][1:Section][13:Article][11:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-08-06 12:17:31',1,NULL);
 INSERT INTO `cached_pages` VALUES (41,'/2009/7/10/make-it-so-activerecord-attributes-which-conflict-with-object-private-methods-don-t-randomly-cause-nomethoderrors','[9:Article][1:Site][1:User][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 04:50:53',1,NULL);
-INSERT INTO `cached_pages` VALUES (42,'/tags/private','[9:Article][1:Site][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-02 07:33:17',1,'2009-08-02 18:20:54');
+INSERT INTO `cached_pages` VALUES (42,'/tags/private','[9:Article][1:Site][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 22:19:22',1,NULL);
 INSERT INTO `cached_pages` VALUES (43,'/tags/fix','[9:Article][1:Site][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 05:44:26',1,NULL);
 INSERT INTO `cached_pages` VALUES (44,'/tags/bug','[9:Article][1:Site][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-05 17:29:36',1,'2009-08-06 00:59:56');
 INSERT INTO `cached_pages` VALUES (45,'/tags/patch','[9:Article][1:Site][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 02:43:58',1,NULL);
@@ -192,10 +192,10 @@ INSERT INTO `cached_pages` VALUES (52,'/archives/2009','[1:Site][1:Section][10:A
 INSERT INTO `cached_pages` VALUES (53,'/2009/8/1/my-favorite-bash-substitution-tricks','[11:Article][1:Site][1:User][12:Comment][14:Comment][9:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-05 16:38:16',1,'2009-08-06 00:59:56');
 INSERT INTO `cached_pages` VALUES (54,'/tags/bash','[11:Article][1:Site][9:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 09:14:51',1,NULL);
 INSERT INTO `cached_pages` VALUES (55,'/tags/command-line','[11:Article][1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-01 23:30:51',1,'2009-08-02 18:20:54');
-INSERT INTO `cached_pages` VALUES (56,'/tags/tips','[11:Article][1:Site][9:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-01 23:30:51',1,'2009-08-02 18:20:54');
+INSERT INTO `cached_pages` VALUES (56,'/tags/tips','[11:Article][1:Site][9:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 17:18:15',1,NULL);
 INSERT INTO `cached_pages` VALUES (57,'/2009/8/3/writing-domain-specific-languages-dsls-with-ruby','[13:Article][1:Site][1:User][15:Comment][16:Comment][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 04:50:08',1,NULL);
-INSERT INTO `cached_pages` VALUES (58,'/tags/dsl','[13:Article][1:Site][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-04 02:57:40',1,'2009-08-04 07:38:46');
-INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[13:Article][1:Site][11:Article][1:Section][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-08-05 13:27:02',1,'2009-08-05 16:37:04');
+INSERT INTO `cached_pages` VALUES (58,'/tags/dsl','[13:Article][1:Site][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-07 00:19:51',1,NULL);
+INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[13:Article][1:Site][11:Article][1:Section][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-08-06 11:15:20',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -914,4 +914,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-08-06 10:52:03
+-- Dump completed on 2009-08-07 10:48:07
