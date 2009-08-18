@@ -128,7 +128,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=60 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -196,6 +196,8 @@ INSERT INTO `cached_pages` VALUES (56,'/tags/tips','[11:Article][1:Site][9:Artic
 INSERT INTO `cached_pages` VALUES (57,'/2009/8/3/writing-domain-specific-languages-dsls-with-ruby','[13:Article][1:Site][1:User][15:Comment][16:Comment][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-06 04:50:08',1,NULL);
 INSERT INTO `cached_pages` VALUES (58,'/tags/dsl','[13:Article][1:Site][9:Article][11:Article][5:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-07 00:19:51',1,NULL);
 INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[13:Article][1:Site][11:Article][1:Section][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-08-06 11:15:20',1,NULL);
+INSERT INTO `cached_pages` VALUES (60,'/tags/search/project/downloading.php','[6:Article][1:Site][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:18',1,NULL);
+INSERT INTO `cached_pages` VALUES (61,'/tags/project/downloading.php','[1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:19',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -914,4 +916,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-08-17 11:05:49
+-- Dump completed on 2009-08-18 11:13:58
