@@ -172,7 +172,7 @@ INSERT INTO `cached_pages` VALUES (27,'/tags/ux','[6:Article][1:Site][3:Article]
 INSERT INTO `cached_pages` VALUES (28,'/archives/2009/6','[8:Article][1:Site][6:Article][5:Article][1:Section][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][3:Article][4:Article][2:Article]','2009-09-09 11:48:14',1,NULL);
 INSERT INTO `cached_pages` VALUES (29,'/2009/6/10/how-to-load-a-yaml-config-object','[5:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-09 06:19:40',1,NULL);
 INSERT INTO `cached_pages` VALUES (30,'/tags/filter','[6:Article][1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-09 06:19:05',1,NULL);
-INSERT INTO `cached_pages` VALUES (31,'/tags/search','[6:Article][1:Site][9:Article][11:Article][18:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-31 00:43:14',1,'2009-09-09 06:17:48');
+INSERT INTO `cached_pages` VALUES (31,'/tags/search','[20:Article][1:Site][6:Article][9:Article][11:Article][18:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-11 01:25:24',1,NULL);
 INSERT INTO `cached_pages` VALUES (32,'/2009/6/17/instant-search-in-pure-javascript-almost-instantly','[6:Article][1:Site][1:User][7:Comment][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-09 06:19:37',1,NULL);
 INSERT INTO `cached_pages` VALUES (33,'/tags/convention','[5:Article][1:Site][20:Article][9:Article][11:Article][18:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-09 06:19:04',1,NULL);
 INSERT INTO `cached_pages` VALUES (34,'/tags/configuration','[5:Article][1:Site][20:Article][9:Article][11:Article][18:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-09 06:19:03',1,NULL);
@@ -1005,4 +1005,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-09-10 11:00:35
+-- Dump completed on 2009-09-11 10:45:30
