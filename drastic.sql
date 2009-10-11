@@ -134,7 +134,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -217,6 +217,7 @@ INSERT INTO `cached_pages` VALUES (71,'/tags/perl','[20:Article][1:Site][9:Artic
 INSERT INTO `cached_pages` VALUES (72,'/tags/tools','[20:Article][1:Site][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-09-27 13:55:39',1,NULL);
 INSERT INTO `cached_pages` VALUES (73,'/archives/2009/9','[20:Article][1:Site][1:Section][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-10-05 03:00:44',1,NULL);
 INSERT INTO `cached_pages` VALUES (74,'/archives/2009/10','[1:Site][1:Section][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-10-07 20:26:29',1,NULL);
+INSERT INTO `cached_pages` VALUES (75,'/tags/zefqxcpoonpczum.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-11 03:35:49',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1015,4 +1016,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-10-10 10:47:23
+-- Dump completed on 2009-10-11 11:03:41
