@@ -134,7 +134,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=77 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -219,6 +219,8 @@ INSERT INTO `cached_pages` VALUES (73,'/archives/2009/9','[20:Article][1:Site][1
 INSERT INTO `cached_pages` VALUES (74,'/archives/2009/10','[1:Site][1:Section][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-10-07 20:26:29',1,NULL);
 INSERT INTO `cached_pages` VALUES (75,'/tags/zefqxcpoonpczum.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-11 03:35:49',1,NULL);
 INSERT INTO `cached_pages` VALUES (76,'/2009/10/11/roll-your-own-remember-me','[21:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-12 03:08:24',1,NULL);
+INSERT INTO `cached_pages` VALUES (77,'/tags/cookies','[21:Article][1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-12 18:25:04',1,NULL);
+INSERT INTO `cached_pages` VALUES (78,'/tags/fluid','[21:Article][1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-12 18:25:05',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1028,4 +1030,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-10-12 10:45:15
+-- Dump completed on 2009-10-13 11:00:36
