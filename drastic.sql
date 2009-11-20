@@ -160,7 +160,7 @@ INSERT INTO `cached_pages` VALUES (14,'/tags/gist','[21:Article][1:Site][3:Artic
 INSERT INTO `cached_pages` VALUES (15,'/tags/rails','[18:Article][1:Site][13:Article][9:Article][5:Article][3:Article][2:Article][20:Article][11:Article][21:Article][6:Article][4:Article][8:Article][10:Article]','2009-11-14 20:29:26',1,NULL);
 INSERT INTO `cached_pages` VALUES (16,'/tags/ruby','[13:Article][1:Site][9:Article][5:Article][2:Article][20:Article][11:Article][18:Article][21:Article][6:Article][4:Article][3:Article][8:Article][10:Article]','2009-11-15 10:47:47',1,NULL);
 INSERT INTO `cached_pages` VALUES (17,'/feed/atom.xml','[1:Section][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-11-14 19:07:12',1,NULL);
-INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:Article][2:Article][1:Section][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article]','2009-10-05 03:05:40',1,'2009-11-14 19:01:20');
+INSERT INTO `cached_pages` VALUES (18,'/archives/2009/5','[3:Article][1:Site][4:Article][2:Article][1:Section][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article]','2009-11-20 04:28:23',1,NULL);
 INSERT INTO `cached_pages` VALUES (19,'/stylesheets/ie.css','','2009-09-27 17:47:33',1,NULL);
 INSERT INTO `cached_pages` VALUES (20,'/2009/5/26/resizing-textareas-as-you-type-with-jquery','[4:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-14 19:40:17',1,NULL);
 INSERT INTO `cached_pages` VALUES (21,'/tags/user%20experience','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-03 02:04:17',1,'2009-11-14 19:01:20');
@@ -1038,4 +1038,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-11-19 11:53:29
+-- Dump completed on 2009-11-20 12:01:08
