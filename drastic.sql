@@ -227,7 +227,7 @@ INSERT INTO `cached_pages` VALUES (80,'/tags/qpxdnujqt.html','[1:Site][20:Articl
 INSERT INTO `cached_pages` VALUES (81,'/tags/gleykqqhtvna.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-23 09:30:56',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (82,'/tags/jisflfgjju.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-25 03:31:28',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (83,'/tags/tsmsmkyolnbli.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-26 08:33:27',1,'2009-11-28 23:34:15');
-INSERT INTO `cached_pages` VALUES (84,'/archives/2009/11','[1:Site][1:Section][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-11-15 04:08:06',1,'2009-11-28 23:34:15');
+INSERT INTO `cached_pages` VALUES (84,'/archives/2009/11','[22:Article][1:Site][1:Section][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-05 01:49:47',1,NULL);
 INSERT INTO `cached_pages` VALUES (85,'/2009/11/28/how-to-run-one-test-unit-test-case-from-vim','[22:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 02:41:55',1,NULL);
 INSERT INTO `cached_pages` VALUES (86,'/tags/testing','[22:Article][1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 03:18:41',1,NULL);
 INSERT INTO `cached_pages` VALUES (87,'/archives/2009/12','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-03 17:02:31',1,NULL);
@@ -1059,4 +1059,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-12-04 12:04:23
+-- Dump completed on 2009-12-05 11:49:01
