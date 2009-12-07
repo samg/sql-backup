@@ -135,7 +135,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=89 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -231,6 +231,7 @@ INSERT INTO `cached_pages` VALUES (84,'/archives/2009/11','[22:Article][1:Site][
 INSERT INTO `cached_pages` VALUES (85,'/2009/11/28/how-to-run-one-test-unit-test-case-from-vim','[22:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 02:41:55',1,NULL);
 INSERT INTO `cached_pages` VALUES (86,'/tags/testing','[22:Article][1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 03:18:41',1,NULL);
 INSERT INTO `cached_pages` VALUES (87,'/archives/2009/12','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-03 17:02:31',1,NULL);
+INSERT INTO `cached_pages` VALUES (88,'/archives','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-06 20:17:25',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1059,4 +1060,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-12-06 12:02:38
+-- Dump completed on 2009-12-07 12:06:15
