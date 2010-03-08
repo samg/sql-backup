@@ -135,7 +135,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=92 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -235,6 +235,11 @@ INSERT INTO `cached_pages` VALUES (88,'/archives','[1:Site][1:Section][22:Articl
 INSERT INTO `cached_pages` VALUES (89,'/tags/2009/5/26/resizing-textareas-as-you-type-with-jquery','[1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-01 15:29:46',1,NULL);
 INSERT INTO `cached_pages` VALUES (90,'/tags/tags/patch','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-01 15:29:47',1,NULL);
 INSERT INTO `cached_pages` VALUES (91,'/tags/tags/bash','[20:Article][1:Site][11:Article][9:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-01 15:29:47',1,NULL);
+INSERT INTO `cached_pages` VALUES (92,'/tags/ack/%22','[20:Article][1:Site][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:40:58',1,NULL);
+INSERT INTO `cached_pages` VALUES (93,'/tags/activerecord/%22','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:40:59',1,NULL);
+INSERT INTO `cached_pages` VALUES (94,'/tags/bash/%22','[20:Article][1:Site][11:Article][9:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:00',1,NULL);
+INSERT INTO `cached_pages` VALUES (95,'/tags/bdd/%22','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:03',1,NULL);
+INSERT INTO `cached_pages` VALUES (96,'/tags/bug/%22','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:04',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1063,4 +1068,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-03-07 11:47:30
+-- Dump completed on 2010-03-08 12:09:59
