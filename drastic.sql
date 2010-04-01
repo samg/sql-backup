@@ -135,7 +135,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -206,7 +206,7 @@ INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[18:Article][1:Site][1
 INSERT INTO `cached_pages` VALUES (60,'/tags/search/project/downloading.php','[6:Article][1:Site][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:18',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (61,'/tags/project/downloading.php','[1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:19',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (62,'/javascripts/vim.js','','2009-11-28 23:34:28',1,NULL);
-INSERT INTO `cached_pages` VALUES (63,'/2009/8/27/how-to-run-rspec-specs-from-vim','[18:Article][1:Site][1:User][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-28 23:43:15',1,NULL);
+INSERT INTO `cached_pages` VALUES (63,'/2009/8/27/how-to-run-rspec-specs-from-vim','[18:Article][1:Site][1:User][20:Article][9:Article][11:Article][22:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-04-01 01:41:35',1,NULL);
 INSERT INTO `cached_pages` VALUES (64,'/tags/bdd','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 12:52:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (65,'/tags/vim','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 19:30:16',1,NULL);
 INSERT INTO `cached_pages` VALUES (66,'/tags/tdd','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-30 02:45:25',1,NULL);
@@ -219,7 +219,7 @@ INSERT INTO `cached_pages` VALUES (72,'/tags/tools','[20:Article][1:Site][9:Arti
 INSERT INTO `cached_pages` VALUES (73,'/archives/2009/9','[20:Article][1:Site][1:Section][22:Article][21:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-01 03:13:03',1,NULL);
 INSERT INTO `cached_pages` VALUES (74,'/archives/2009/10','[21:Article][1:Site][1:Section][22:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2009-12-01 05:59:48',1,NULL);
 INSERT INTO `cached_pages` VALUES (75,'/tags/zefqxcpoonpczum.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-11 03:35:49',1,'2009-11-28 23:34:15');
-INSERT INTO `cached_pages` VALUES (76,'/2009/10/11/roll-your-own-remember-me','[21:Article][1:Site][1:User][20:Article][9:Article][11:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-28 23:36:26',1,NULL);
+INSERT INTO `cached_pages` VALUES (76,'/2009/10/11/roll-your-own-remember-me','[21:Article][1:Site][1:User][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-04-01 10:24:43',1,NULL);
 INSERT INTO `cached_pages` VALUES (77,'/tags/cookies','[21:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-12-01 09:16:45',1,NULL);
 INSERT INTO `cached_pages` VALUES (78,'/tags/fluid','[21:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-12-01 09:16:46',1,NULL);
 INSERT INTO `cached_pages` VALUES (79,'/tags/emlfzjbeaqbtnerb.html','[1:Site][20:Article][9:Article][11:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-10-20 22:04:09',1,'2009-11-28 23:34:15');
@@ -240,6 +240,10 @@ INSERT INTO `cached_pages` VALUES (93,'/tags/activerecord/%22','[9:Article][1:Si
 INSERT INTO `cached_pages` VALUES (94,'/tags/bash/%22','[20:Article][1:Site][11:Article][9:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:00',1,NULL);
 INSERT INTO `cached_pages` VALUES (95,'/tags/bdd/%22','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:03',1,NULL);
 INSERT INTO `cached_pages` VALUES (96,'/tags/bug/%22','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:04',1,NULL);
+INSERT INTO `cached_pages` VALUES (97,'/archives/2010/4','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-04-01 08:40:37',1,NULL);
+INSERT INTO `cached_pages` VALUES (98,'/archives/2010/1','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-04-01 08:40:37',1,NULL);
+INSERT INTO `cached_pages` VALUES (99,'/archives/2010/3','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-04-01 08:51:02',1,NULL);
+INSERT INTO `cached_pages` VALUES (100,'/archives/2010/2','[1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-04-01 09:03:20',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1068,4 +1072,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-03-31 11:08:26
+-- Dump completed on 2010-04-01 10:54:41
