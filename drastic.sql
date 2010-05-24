@@ -136,7 +136,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=107 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=109 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -243,7 +243,7 @@ INSERT INTO `cached_pages` VALUES (95,'/tags/bdd/%22','[22:Article][1:Site][18:A
 INSERT INTO `cached_pages` VALUES (96,'/tags/bug/%22','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:04',1,NULL);
 INSERT INTO `cached_pages` VALUES (97,'/archives/2010/4','[23:Article][1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-22 03:17:22',1,NULL);
 INSERT INTO `cached_pages` VALUES (98,'/archives/2010/1','[1:Site][1:Section][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-22 09:04:00',1,NULL);
-INSERT INTO `cached_pages` VALUES (99,'/archives/2010/3','[1:Site][1:Section][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-21 02:47:57',1,'2010-05-21 10:33:41');
+INSERT INTO `cached_pages` VALUES (99,'/archives/2010/3','[1:Site][1:Section][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-24 08:22:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (100,'/archives/2010/2','[1:Site][1:Section][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-19 07:50:55',1,'2010-05-21 10:33:41');
 INSERT INTO `cached_pages` VALUES (101,'/tags/commandline','[23:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-05-21 13:01:02',1,NULL);
 INSERT INTO `cached_pages` VALUES (102,'/tags/gnu%20screen','[23:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-05-21 11:30:10',1,NULL);
@@ -251,6 +251,8 @@ INSERT INTO `cached_pages` VALUES (103,'/tags/mail%20command','[23:Article][1:Si
 INSERT INTO `cached_pages` VALUES (104,'/2010/4/21/poor-man-s-notification-system','[23:Article][1:Site][1:User][24:Comment][25:Comment][26:Comment][27:Comment][28:Comment][29:Comment][30:Comment][31:Comment][32:Comment][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-05-22 08:45:00',1,NULL);
 INSERT INTO `cached_pages` VALUES (105,'/tags/bdd%20%20','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-04-24 17:35:50',1,'2010-05-08 08:42:21');
 INSERT INTO `cached_pages` VALUES (106,'/archives/2010/5','[1:Site][1:Section][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-23 03:36:15',1,NULL);
+INSERT INTO `cached_pages` VALUES (107,'/tags/gnu','[1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-05-23 16:08:02',1,NULL);
+INSERT INTO `cached_pages` VALUES (108,'/tags/mail','[1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-05-23 16:08:03',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1115,4 +1117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-05-23 11:13:12
+-- Dump completed on 2010-05-24 11:12:51
