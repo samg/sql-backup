@@ -203,7 +203,7 @@ INSERT INTO `cached_pages` VALUES (55,'/tags/command-line','[11:Article][1:Site]
 INSERT INTO `cached_pages` VALUES (56,'/tags/tips','[11:Article][1:Site][20:Article][9:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 14:31:46',1,NULL);
 INSERT INTO `cached_pages` VALUES (57,'/2009/8/3/writing-domain-specific-languages-dsls-with-ruby','[13:Article][1:Site][1:User][15:Comment][16:Comment][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-29 16:49:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (58,'/tags/dsl','[13:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][5:Article][21:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-11-30 00:23:21',1,NULL);
-INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[18:Article][1:Site][13:Article][11:Article][1:Section][23:Article][22:Article][21:Article][20:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-19 08:03:23',1,'2010-05-21 10:33:41');
+INSERT INTO `cached_pages` VALUES (59,'/archives/2009/8','[18:Article][1:Site][13:Article][11:Article][1:Section][23:Article][22:Article][21:Article][20:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-25 02:21:51',1,NULL);
 INSERT INTO `cached_pages` VALUES (60,'/tags/search/project/downloading.php','[6:Article][1:Site][9:Article][11:Article][5:Article][13:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:18',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (61,'/tags/project/downloading.php','[1:Site][9:Article][11:Article][5:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2009-08-17 21:18:19',1,'2009-11-28 23:34:15');
 INSERT INTO `cached_pages` VALUES (62,'/javascripts/vim.js','','2009-11-28 23:34:28',1,NULL);
@@ -1117,4 +1117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-05-24 11:12:51
+-- Dump completed on 2010-05-25 11:11:34
