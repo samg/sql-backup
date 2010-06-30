@@ -243,7 +243,7 @@ INSERT INTO `cached_pages` VALUES (93,'/tags/activerecord/%22','[9:Article][1:Si
 INSERT INTO `cached_pages` VALUES (94,'/tags/bash/%22','[20:Article][1:Site][11:Article][9:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:00',1,'2010-06-26 06:11:52');
 INSERT INTO `cached_pages` VALUES (95,'/tags/bdd/%22','[22:Article][1:Site][18:Article][20:Article][9:Article][11:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:03',1,'2010-06-26 06:11:52');
 INSERT INTO `cached_pages` VALUES (96,'/tags/bug/%22','[9:Article][1:Site][20:Article][11:Article][22:Article][18:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-03-08 00:41:04',1,'2010-06-26 06:11:52');
-INSERT INTO `cached_pages` VALUES (97,'/archives/2010/4','[23:Article][1:Site][1:Section][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-05-22 03:17:22',1,'2010-06-26 06:11:52');
+INSERT INTO `cached_pages` VALUES (97,'/archives/2010/4','[23:Article][1:Site][1:Section][34:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-06-29 11:16:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (98,'/archives/2010/1','[1:Site][1:Section][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-06-26 11:05:55',1,NULL);
 INSERT INTO `cached_pages` VALUES (99,'/archives/2010/3','[1:Site][1:Section][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-06-26 10:29:36',1,NULL);
 INSERT INTO `cached_pages` VALUES (100,'/archives/2010/2','[1:Site][1:Section][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-06-26 21:48:10',1,NULL);
@@ -1126,4 +1126,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-06-29 10:59:39
+-- Dump completed on 2010-06-30 10:54:31
