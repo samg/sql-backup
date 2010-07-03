@@ -138,7 +138,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=115 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=116 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -261,6 +261,7 @@ INSERT INTO `cached_pages` VALUES (111,'/tags/nopoconi','[34:Article][1:Site][20
 INSERT INTO `cached_pages` VALUES (112,'/2010/6/26/wiff-me-a-webpage-differ','[34:Article][1:Site][1:User][20:Article][9:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-06-26 06:28:26',1,NULL);
 INSERT INTO `cached_pages` VALUES (113,'/tags/diff','[34:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-06-26 07:03:43',1,NULL);
 INSERT INTO `cached_pages` VALUES (114,'/tags/wiff','[34:Article][1:Site][20:Article][9:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][10:Article]','2010-06-26 07:05:04',1,NULL);
+INSERT INTO `cached_pages` VALUES (115,'/archives/2010/7','[1:Site][1:Section][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-07-02 15:19:20',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1126,4 +1127,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-07-02 10:48:57
+-- Dump completed on 2010-07-03 11:05:19
