@@ -140,7 +140,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=126 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=127 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -149,7 +149,7 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `cached_pages` WRITE;
 /*!40000 ALTER TABLE `cached_pages` DISABLE KEYS */;
-INSERT INTO `cached_pages` VALUES (1,'/','[36:Article][1:Site][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][1:Section][3:Article][4:Article][2:Article]','2010-10-19 00:47:34',1,NULL);
+INSERT INTO `cached_pages` VALUES (1,'/','[36:Article][1:Site][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article][1:Section]','2010-10-31 18:31:24',1,NULL);
 INSERT INTO `cached_pages` VALUES (2,'/stylesheets/main.css','','2009-05-20 05:14:03',1,'2010-10-13 14:46:21');
 INSERT INTO `cached_pages` VALUES (3,'/images/bg.png','','2009-05-20 05:14:03',1,'2010-10-13 14:46:21');
 INSERT INTO `cached_pages` VALUES (4,'/stylesheets/text.css','','2010-10-13 14:46:25',1,NULL);
@@ -274,6 +274,7 @@ INSERT INTO `cached_pages` VALUES (122,'/2010/10/13/indexing-data-that-s-not-in-
 INSERT INTO `cached_pages` VALUES (123,'/tags/scaling','[36:Article][1:Site][20:Article][9:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][35:Article][10:Article]','2010-10-19 00:49:07',1,NULL);
 INSERT INTO `cached_pages` VALUES (124,'/tags/sphinx','[36:Article][1:Site][20:Article][9:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][13:Article][6:Article][4:Article][3:Article][2:Article][8:Article][35:Article][10:Article]','2010-10-19 00:49:10',1,NULL);
 INSERT INTO `cached_pages` VALUES (125,'/archives/2010/10','[36:Article][1:Site][1:Section][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-10-19 00:50:42',1,NULL);
+INSERT INTO `cached_pages` VALUES (126,'/archives/2010/11','[1:Site][1:Section][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2010-11-01 03:04:40',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1165,4 +1166,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-10-26  4:34:14
+-- Dump completed on 2010-11-01 10:11:02
