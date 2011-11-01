@@ -144,7 +144,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=158 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=163 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -310,6 +310,11 @@ INSERT INTO `cached_pages` VALUES (154,'/tags/rubyindex.php','[1:Site][20:Articl
 INSERT INTO `cached_pages` VALUES (155,'/tags/sshindex.php','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2011-09-08 23:14:21',1,NULL);
 INSERT INTO `cached_pages` VALUES (156,'/tags/diffindex.php','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2011-09-14 02:33:54',1,NULL);
 INSERT INTO `cached_pages` VALUES (157,'/tags/sphinxindex.php','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2011-09-18 23:09:10',1,NULL);
+INSERT INTO `cached_pages` VALUES (158,'/archives/2011/7','[1:Site][1:Section][42:Article][41:Article][40:Article][39:Article][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2011-10-18 20:48:09',1,NULL);
+INSERT INTO `cached_pages` VALUES (159,'/archives/2011/8','[1:Site][1:Section][42:Article][41:Article][40:Article][39:Article][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2011-10-18 21:45:08',1,NULL);
+INSERT INTO `cached_pages` VALUES (160,'/archives/2011/6','[1:Site][1:Section][42:Article][41:Article][40:Article][39:Article][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2011-10-18 21:49:02',1,NULL);
+INSERT INTO `cached_pages` VALUES (161,'/archives/2011/9','[1:Site][1:Section][42:Article][41:Article][40:Article][39:Article][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2011-10-18 21:52:52',1,NULL);
+INSERT INTO `cached_pages` VALUES (162,'/archives/2011/10','[1:Site][1:Section][42:Article][41:Article][40:Article][39:Article][36:Article][35:Article][34:Article][23:Article][22:Article][21:Article][20:Article][18:Article][13:Article][11:Article][10:Article][9:Article][8:Article][6:Article][5:Article][3:Article][4:Article][2:Article]','2011-10-18 22:00:34',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1248,4 +1253,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2011-10-01  3:11:02
+-- Dump completed on 2011-11-01  3:11:02
