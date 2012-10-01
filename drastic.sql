@@ -144,7 +144,7 @@ CREATE TABLE `cached_pages` (
   `site_id` int(11) default NULL,
   `cleared_at` datetime default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=206 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=207 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -358,6 +358,7 @@ INSERT INTO `cached_pages` VALUES (202,'/tags/water','[1:Site][20:Article][9:Art
 INSERT INTO `cached_pages` VALUES (203,'/tags/poisson','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2012-07-09 10:22:23',1,NULL);
 INSERT INTO `cached_pages` VALUES (204,'/tags/design','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2012-07-09 10:22:24',1,NULL);
 INSERT INTO `cached_pages` VALUES (205,'/tags/outline','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2012-07-09 10:22:25',1,NULL);
+INSERT INTO `cached_pages` VALUES (206,'/tags/cache/22092e9b25c40809dfb94b6179166b26','[1:Site][20:Article][9:Article][42:Article][34:Article][11:Article][22:Article][18:Article][23:Article][5:Article][21:Article][41:Article][40:Article][13:Article][6:Article][4:Article][3:Article][2:Article][39:Article][8:Article][35:Article][36:Article][10:Article]','2012-09-21 11:36:49',1,NULL);
 /*!40000 ALTER TABLE `cached_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1296,4 +1297,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-09-01 10:11:02
+-- Dump completed on 2012-10-01 10:11:02
